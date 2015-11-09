@@ -1,5 +1,5 @@
 /***********************************************************************
- * BasicOS Operating System
+ * SimplixOS Operating System
  *
  * File: modules/modloader.c
  *
@@ -25,7 +25,7 @@
  *
  ***********************************************************************/
 
-#include <bos/k/mods/modloader.h>
+#include <simplix/k/mods/modloader.h>
 
 #include <libk/stdio.h>
 
