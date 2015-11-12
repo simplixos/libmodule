@@ -25,7 +25,7 @@
  *
  ***********************************************************************/
 
-#include <simplix/k/mods/modloader.h>
+#include <bos/k/mods/modloader.h>
 
 #include <libk/stdio.h>
 

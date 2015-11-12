@@ -19,9 +19,9 @@
 #       along with this program. If not, see <http://www.gnu.org/licenses/>.  #
 ###############################################################################
 
-CC=../../../cross/os-toolchain/bin/i686-elf-gcc
-AR=../../../cross/os-toolchain/bin/i686-elf-ar
-RANLIB=../../../cross/os-toolchain/bin/i686-elf-ranlib
+CC=../../../cross/os-toolchain/bin/i686-simplix-gcc
+AR=../../../cross/os-toolchain/bin/i686-simplix-ar
+RANLIB=../../../cross/os-toolchain/bin/i686-simplix-ranlib
 
 LIBDIR=../libk/obj/
 LIBS=-lk
@@ -54,4 +54,4 @@ obj/%.libmod.o: %.c
 	$(CC) -c $< -o $@ $(CFLAGS)
 
 clean:
-	rm -rf $(OBJS) $(BIN) $(OBJDIR)/$(BIN) $(OBJDIR)
+	rm -rf $(OBJS) $(BIN) $(OBJDIR)/$(BIN) $(OBJDIR) $(BIN)
