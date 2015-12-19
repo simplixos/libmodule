@@ -8,7 +8,7 @@
  *      constants.
  *
  * License:
- * BasicOS Operating System - An experimental operating system.
+ * SimplixOS Operating System - An experimental operating system.
  * Copyright (C) 2015 Aun-Ali Zaidi
  *
  * This program is free software: you can redistribute it and/or modify
