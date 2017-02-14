@@ -1,7 +1,7 @@
 /***********************************************************************
  * SimplixOS Operating System
  *
- * File: modules/modloader.c
+ * File: lib/libmodule/src/modloader.c
  *
  * Description:
  *      Portable Module loader implementation.
@@ -25,9 +25,11 @@
  *
  ***********************************************************************/
 
-#include <bos/k/mods/modloader.h>
+#include <simplix/k/mods/modloader.h>
 
-#include <libk/stdio.h>
+#ifdef _simplix_k_libc
+	#include <stdio.h>
+#endif
 
 #define MAX_LOADERS		20
 #define DEFAULT_STACKSIZE	0x1000

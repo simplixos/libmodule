@@ -1,7 +1,7 @@
 /***********************************************************************
  * SimplixOS Operating System
  *
- * File: src/bos/libmodule/src/mod_elf.c
+ * File: lib/libmodule/src/mod_elf.c
  *
  * Description:
  *      Portable Module loader implementation data structs and
@@ -26,9 +26,11 @@
  *
  ***********************************************************************/
 
-#include <bos/k/mods/mod_elf.h>
+#include <simplix/k/mods/mod_elf.h>
 
-#include <stdint.h>
+#ifdef __GNUC__
+	#include <stdint.h>
+#endif
 
 typedef unsigned int pid_t;
 

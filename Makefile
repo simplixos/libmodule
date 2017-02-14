@@ -26,7 +26,7 @@ RANLIB=../../../cross/os-toolchain/bin/i686-simplix-ranlib
 LIBDIR=../libk/obj/
 LIBS=-lk
 
-CFLAGS=-O2 -std=gnu99 -L$(LIBDIR) $(LIBS) -ffreestanding -fbuiltin -Wall -Wextra -D__bos_libk -I../include
+CFLAGS=-O2 -std=gnu99 -L$(LIBDIR) $(LIBS) -ffreestanding -fbuiltin -Wall -Wextra -D_simplix_k_libc -I../include
 
 SOURCES=./src/modloader.c \
 	./src/mod_elf.c
